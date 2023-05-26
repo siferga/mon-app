@@ -4,6 +4,7 @@
     text-align: center;
     justify-content: center;
     height: 10%;
+    min-height: -moz-fit-content;
     min-height: fit-content;
     background-image: url("../../assets/Home/bg-blue.jpg");
 
