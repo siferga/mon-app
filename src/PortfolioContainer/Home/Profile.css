@@ -6,7 +6,7 @@
     height: 10%;
     min-height: -moz-fit-content;
     min-height: fit-content;
-    background-image: url("../../assets/Home/bg-blue.jpg");
+    background-image: url("../../assets//Home/bg-blue.jpg");
 
 }
 .profile-parent{
@@ -60,7 +60,7 @@
 .profile-picture-backgroung {
     height: 92%;
     width: 92%;
-    background-image: url("../../assets/Home/profilephoto.jpg");
+    background-image: url("../../assets//Home/profilephoto.jpg");
     background-size: cover;
     border-radius: 50%;
     background-repeat: no-repeat;

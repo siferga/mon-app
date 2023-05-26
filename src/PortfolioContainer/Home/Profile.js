@@ -12,13 +12,13 @@ export default function Profile() {
                             <a href='https://www.linkedin.com/in/silviafernandezgarcia1/'>
                                 <i className='fa fa-linkedin'></i>
                             </a>
-                            <a href='#'>
+                            <a href='https://discord.com/'>
                                 <i className='fa fa-discord'></i>
                             </a>
-                            <a href='#'>
+                            <a href='https://www.instagram.com/'>
                                 <i className='fa fa-instagram'></i>
                             </a>
-                            <a href='#'>
+                            <a href='https://github.com/siferga'>
                                 <i className='fa fa-github'></i>
                             </a>
                             <a href='#'>
@@ -61,7 +61,7 @@ export default function Profile() {
                             Hire Me{" "}
                         </button>
                         <a href="CV Silvia portfolio.pdf" download="CV Silvia Fernandez.pdf">
-                            <button className="btn highlighted-btn">Get Resume</button>
+                            <button className="btn highlighted-btn">Get CV</button>
                         </a>
                     </div>
                 </div>
