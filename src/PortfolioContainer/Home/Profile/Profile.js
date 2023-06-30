@@ -1,5 +1,5 @@
 import React from "react";
-import Typical from "react-typical";
+import ScrollService from "../../../utilities/ScrollService";
 import "./Profile.css";
 
 export default function Profile() {
@@ -11,9 +11,6 @@ export default function Profile() {
                         <div className='colz-icon'>
                             <a href='https://www.linkedin.com/in/silviafernandezgarcia1/'>
                                 <i className='fa fa-linkedin'></i>
-                            </a>
-                            <a href='https://discord.com/'>
-                                <i className='fa fa-discord'></i>
                             </a>
                             <a href='https://www.instagram.com/'>
                                 <i className='fa fa-instagram'></i>
@@ -29,47 +26,33 @@ export default function Profile() {
                     <div className='profile-details-name'>
                         <span className='primary-text'>
                             {" "}
-                            Hello, I'm  <span className='highlighted-text'>Silvia</span>
+                            <span className='highlighted-text'></span>
                         </span>
                     </div>
 
                     <div className='profile-details-role'>
                         <span className='primary-text'>
-                            {""}
-                            <h1>
-                                {" "}
-                                <Typical 
-                                    loop={Infinity}
-                                    steps={[
-                                        "Full Stack Dev 🛑", 
-                                        1000,
-                                        "React Developer ⚛️", 
-                                        1000,
-                                        "Enthusiastic Developer", 
-                                        1000,
-                                    ]}
-                                />
+                            {" "}
+                            <h1>Développeuse Web Full Stack 
                             </h1>
+                            <h1>💻 ⚛️ 📒</h1>
                             <span className="profile-role-tagline">
-                                I am courious and looking for a place into the web insdustry.
                             </span>
                         </span>
                     </div>
                     <div className="profile-options">
-                        <button className="btn primary-btn">
-                            {" "}
-                            Hire Me{" "}
-                        </button>
+                        <button className="btn primary-btn"
+                         onClick={() => ScrollService.scrollHandler.scrollToHireMe()}
+                        >Me contacter</button>
                         <a href="CV Silvia portfolio.pdf" download="CV Silvia Fernandez.pdf">
-                            <button className="btn highlighted-btn">Get CV</button>
+                            <button className="btn highlighted-btn">Mon CV</button>
                         </a>
                     </div>
                 </div>
                 <div className="profile-picture">
-                    <div className="profile-picture-background">
-                    </div>
+                    <div className="profile-picture-background"></div>
                 </div>
             </div>
         </div>
-    )
+    );
 }

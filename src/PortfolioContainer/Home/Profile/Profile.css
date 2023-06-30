@@ -4,19 +4,17 @@
     text-align: center;
     justify-content: center;
     height: 10%;
-    min-height: -moz-fit-content;
     min-height: fit-content;
-    background-image: url("../../assets//Home/bg-blue.jpg");
-
+    /*to study!!!*/
 }
 .profile-parent{
    display: flex;
    align-items: center;
-   color:aliceblue; 
+   color:var(--white); 
 }
 .profile-details-name{
-    font-size: 24px;
-    font-family: "Poppins SemiBold";
+    font-size: 35px;
+    /*font-family: "Poppins SemiBold";*/
 }
 
 .profile-details-role{
@@ -26,26 +24,31 @@
 }
 .profile-details-role h1{
     font-size: 40px;
-    font-family: cursive;
 }
 .primary-text {
     color: (--white);
 }
 .highlighted-text {
-    color: var(--light-blue);
+    color: white;
+    margin-top: 5px;
 }
 .profile-role-tagline{
    font-size: 19px;
    margin: 5px 0 0 0;
    font-family: "Poppins Light"; 
 }
+/*Button 'Mon cv'*/
 .profile-options .highlighted-btn {
     margin: 0 0 0 28px;
+    border-radius: 12px solid white;
+    background-color: white;
+    color: #00275a;
+
 }
 .profile-options .highlighted-btn:hover {
     margin: 0 0 0 28px;
     background-color: cornflowerblue;
-    color: black;
+    color: white;
 }
 .profile-picture{
     display: flex;
@@ -57,22 +60,20 @@
     width: 380px;
     margin: 0 0px 0 100px;
 }
-.profile-picture-backgroung {
+.profile-picture-background {
     height: 92%;
     width: 92%;
-    background-image: url("../../assets//Home/profilephoto.jpg");
+    background-image: url("../../../assets/Home/profilephoto.jpg");
     background-size: cover;
     border-radius: 50%;
     background-repeat: no-repeat;
     background-position: center;
 }
-
-.profile-picture-backgroung:hover {
+.profile-picture-background:hover {
     transform: scale(1.07);
     transition:  1s ease-out;
-  
 }
-.colz .colz-icon {
+.colz .colz-icon i {
     color: white;
     padding: 8px;
     padding-left:  0px;
@@ -86,10 +87,10 @@
         margin: 0 0px 0 80px;
     }
     .profile-details-name{
-        font-size: 20px;
+        font-size: 25px;
     }
     .profile-details-role .primary-text{
-        font-size: 12px;
+        font-size: 15px;
     }
     .profile-options .btn{
         width: 120px;
@@ -138,4 +139,9 @@
     .profile-details{
         width: 90%;
     }
+    .profile-role-tagline{
+        font-size: 0px;
+        margin: 5px 0 0 0;
+        font-family: "Poppins Light"; 
+     }
 }
