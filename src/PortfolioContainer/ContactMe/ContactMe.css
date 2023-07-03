@@ -1,18 +1,18 @@
 .main-container {
-    min-height: 100vh;
     /* background-image: url("../../assets/ContactMe/contact_us.jpeg"); */
-    margin: 100px 0 -450px 0;
-}
-.central-form {
-    max-width: 1300px;
-    padding: 10px;
-    display: flex;
-    box-shadow: 0 0px 20px -2px #00275A;
-    border-radius: 12px;
-    margin: 0 auto;
-    flex-direction: column;
-    justify-content: center;
+    margin: 100px 0 100px 0;
+    padding: 50px 0 50px 0;
     background-color: #00275A;
+}
+
+.central-form {
+    /*max-width: 1300px;
+    padding: 10px;*/
+    display: flex;
+    flex-direction: column;
+    /*margin: 0 auto;*/
+    justify-content: center;
+    align-items: center;
 }
 .col .title{
   justify-content: center;
@@ -28,22 +28,8 @@
 .back-form {
     max-width: 380px;
     margin: 0 auto;
-  }
-.back-form .img-back {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-.img-back h4 {
-    letter-spacing: 0.3rem;
-    font-weight: 400;
-    color: white;
-    font-size: 18px;
-    opacity: 0.5;
-  }
-.back-form .img-back img {
-    width: 100%;
-    opacity: 0.8;
 }
+
 .central-form form {
     width: auto;
     box-shadow: 0 0 2px 1px white;

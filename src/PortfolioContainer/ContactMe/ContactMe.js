@@ -2,9 +2,6 @@ import React, {useState} from 'react';
 /*import Typical from 'react-typical';*/
 import axios from "axios";
 import { toast } from "react-toastify";
-
-/*import imgBack from '../../../src/images/mailz.jpeg';*/
-import imgBack from '../../../src/images/20.jpg';
 /*import load1 from '../../../src/images/load2.gif';*/
 import ScreenHeading from '../../utilities/ScreenHeading/ScreenHeading';
 import ScrollService from '../../utilities/ScrollService';
@@ -67,7 +64,7 @@ export default function ContactMe(props) {
   return (
     <div className='main-container' id={props.id|| ''}> 
         <ScreenHeading
-        title={"Me Contacter"} />
+        title={""} />
         <div className='central-form'>
             <div className='col'>
                 <h2 className='title'>
@@ -90,7 +87,7 @@ export default function ContactMe(props) {
             </div>
             <div className='back-form'>
                 <div className='img-back'>
-                    <img src={imgBack} alt='image not found'/>
+                    
                 </div>
                 <form onSubmit={submitForm}>
                     <p>{banner}</p>
