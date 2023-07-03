@@ -19,12 +19,10 @@ export default function AboutMe(props) {
                 "Après une formation et un stage en entreprise, j’ai obtenu le titre professionnel de Développeur Web et Web Mobile, me donnant l’opportunité de continuer à aprendre dans un secteur qui m’a toujours attiré.",
             ],
             paragraphe2: [
-                "Mon expérience professionnelle dans des différentes secteurs, pays et entreprises, m’a aidé à développer ma capacité d'adaptation, à la pratique de longues et à mieux connaitre le besoin client.",
+                "Mon expérience professionnelle dans des différentes secteurs, pays et entreprises, m’a aidé à développer ma capacité d'adaptation, à la pratique de longues et à mieux connaitre le besoin client. En étant charge de la conception de voyages dans une agence en France, j'ai respecté les échéances établies avec les clients et les fournisseurs, ce qui m'a permis de développer mon sens de l’organisation et de la rigueur.",
             ],
+           
             paragraphe3: [
-                "En étant charge de la conception de voyages dans une agence en France, j'ai respecté les échéances établies avec les clients et les fournisseurs, ce qui m'a permis de développer mon sens de l’organisation et de la rigueur.",
-            ],
-            paragraphe4: [
                 "Je cherche un contrat comme développeuse web junior ou un contrat en alternance pour continuer à me former et atteindre le titre professionnel de 'Concepteur Développeur d'Applications Web.",
             ],
             
@@ -39,8 +37,6 @@ export default function AboutMe(props) {
             heading: "",
         },
     };
-
-
 
 
   return (
@@ -58,9 +54,6 @@ export default function AboutMe(props) {
                         </div>
                         <div className='description-paragraphe3'>
                             <span> {SCREEN_CONSTSANTS.description.paragraphe3}</span>    
-                        </div>
-                        <div className='description-paragraphe3'>
-                            <span> {SCREEN_CONSTSANTS.description.paragraphe4}</span>    
                         </div>
                     </div>
                    

@@ -6,24 +6,28 @@
   margin: 50px 0 0 0;
 }
 .about-me-parent {
-  max-width: 1300px;
+  /*max-width: 1300px;*/
   width: 90%;
 }
 .about-me-card {
   width: 100%;
   border-radius: 14px;
   box-shadow: 0 0px 20px -2px #00275A;
+  
 
 }
 .about-me-details {
   width: 100%;
   text-align: justify;
   padding: 40px;
-  align-items: center;
+  align-items:normal;
 }
 .about-me-description {
   font-size: 14px;
   line-height: 250%;
+  font-size: 1.1rem;
+  /*text-align: center;*/
+  justify-content: center;
 
 }
 .about-me-highlights {
@@ -83,3 +87,16 @@
       width: 100%;
     }
   }
+
+  
+@media (min-width: 1980px){
+  .about-me-details {
+    width: 100%;
+    text-align:center;
+    padding: 40px;
+   
+  }
+  
+  
+}
+  
