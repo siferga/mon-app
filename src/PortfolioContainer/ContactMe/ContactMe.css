@@ -6,42 +6,42 @@
 }
 
 .central-form {
-    /*max-width: 1300px;
-    padding: 10px;*/
     display: flex;
     flex-direction: column;
-    /*margin: 0 auto;*/
+    /*margin: 0 auto;
     justify-content: center;
-    align-items: center;
+    align-items: center;*/
 }
-.col .title{
-  justify-content: center;
-  
-}
+ 
 .central-form h2 {
     color: #fff;
     font-family: "Poppins Bold";
     letter-spacing: 0.2rem;
-    margin-bottom: 30px;
-
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4%;
+    
   }
+
+/*Form*/
 .back-form {
-    max-width: 380px;
+    width: 50%;
     margin: 0 auto;
+    /*justify-content: center;*/
+    align-items: center;
 }
 
 .central-form form {
     width: auto;
     box-shadow: 0 0 2px 1px white;
     display: flex;
-    color: #00275A;
     padding: 15px;
     justify-content: center;
     flex-direction: column;
     margin-top: -52px;
     opacity: 0.9;
     background-color: white;
-    box-shadow: 0 0px 20px -2px #035acc;
+    box-shadow: 0 0px 20px -2px #a8cbf8;
     border-radius: 12px;
 }
 form p {
@@ -107,39 +107,40 @@ button .load {
 .col i:hover {
     transform: scale(1.5);
 }
-@media screen and (min-width: 940px) {
+
+@media screen and (max-width: 1500px) {
   .back-form {
-      max-width: 1100px;
-      margin: 0 auto;
       display: flex;
       justify-content: space-between;
       margin-top: 30px;
   }
-  .img-back {
-      flex: 1;
-      align-self: center;
-      margin-right: 20px;
+  .central-form h2 {
+    letter-spacing: 0.2rem;
+    margin-bottom: 8%;
   }
+  .back-form {
+    width: 90%;
+    /*margin: 0 auto;*/
+}
   form {
       flex: 0.9;
   }
 
 }
 
-@media screen and (max-width: 710px) {
-  .back-form .img-back {
-    display: none;
+@media screen and (max-width: 600px) {
+  .central-form h2 {
+      font-size: 28px;
+      padding-bottom: 10%;
+
   }
-  .central-form form {
-    justify-content: right;
-  }
+  .back-form {
+    width: 95%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
 
 }
-
-@media screen and (max-width: 414px) {
-  .central-form h2 {
-      font-size: 16px;
-  }
   
 }
   

@@ -1,56 +1,64 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards.js";
-import ecommerce from "../../assets/Projects/vegetables1.jpg";
-import application from "../../assets/Projects/application.jpg";
+import ScreenHeading from '../../utilities/ScreenHeading/ScreenHeading';
+import  portfolio from "../../assets/Projects/projetPortfolio.png";
+import application from "../../assets/Projects/projetCampagnes.png";
 import blog from "../../assets/Projects/logoSF.png";
+import ScrollService from "../../utilities/ScrollService";
+import Animations from '../../utilities/Animations';
+import './Projects.css';
 
-function Projects() {
+export default function Projects(props) {
+    let fadeInScreenHandler = (screen)=>{
+      if(screen.fadeInScreen !== props.id)
+      return;
+      Animations.animations.fadeInScreen(props.id);
+  };
+
+  const fadeInSubscription = 
+  ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
+
   return (
-    <Container fluid className="project-section">
-      <Container>
-        <h1 className="project-heading">
-          Projets
-        </h1>
-       
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={ecommerce}
-              isBlog={false}
-              title="CompraTodo"
-              description=" appli react.js, sharing as well as supports reactions on messages."
-              ghLink="https://github.com"
-              demoLink="https://google.com/"
+    <div className='project-container' id={props.id || ""}>
+      <div className="project-heading"> 
+      <ScreenHeading title={'Projets'}/>
+      </div>
+      <div className="project-card-container">
+        <div className="project-card">
+          <ProjectCard
+            imgPath={portfolio}
+            isBlog={false}
+            title="Portfolio"
+            description=" Html, Bootstrap et JS"
+            ghLink="https://majestic-sunshine-5523f2.netlify.app/"
+            demoLink="https://majestic-sunshine-5523f2.netlify.app/"
             />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={application}
-              isBlog={false}
-              title="SupperApp"
-              description=" bxqljhc cgzoipdyhcg vgouydg cd."
-              ghLink="https://github.com"
-              demoLink="https://google.com/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={blog}
-              isBlog={false}
-              title="Blogui"
-              description="ghdlzihefg gqoidg g zopydfg poaieyh p aayheh ufjausud fyDhs  gaouyt sil silocça fernansd epzru yh "
-              ghLink="https://github.com"
-              demoLink="https://google.com/"              
-            />
-          </Col>
-        </Row>
-      </Container>
-    </Container>
+        </div>
+          
+        <div className="project-card">
+          <ProjectCard
+            imgPath={application}
+            isBlog={false}
+            title="Application de gestion"
+            description=" Symfony 5 et Bootstrap 5"
+            ghLink="https://github.com/siferga/Campagnes_Webmarketing"
+            demoLink="https://google.com/"
+          />
+        </div>
+      
+        <div className="project-card">
+          <ProjectCard
+            imgPath={blog}
+            isBlog={false}
+            title="Blog de Voyages"
+            description="Symfony"
+            ghLink="https://github.com"
+            demoLink="https://google.com/"              
+          />
+        </div>
+      </div>
+    </div>
   );
 }
 
-export default Projects;
 

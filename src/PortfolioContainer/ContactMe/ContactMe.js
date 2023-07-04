@@ -68,10 +68,7 @@ export default function ContactMe(props) {
         <div className='central-form'>
             <div className='col'>
                 <h2 className='title'>
-                   
-                Me contacter 💻
-                  
-                </h2>
+                Me contacter 💻 
                 <a href='https://www.linkedin.com/in/silviafernandezgarcia1/'>
                     <i className='fa fa-linkedin'></i>
                 </a>
@@ -84,35 +81,33 @@ export default function ContactMe(props) {
                 <a href='#'>
                     <i className='fa fa-twitter'></i>
                 </a>
+                </h2>
             </div>
             <div className='back-form'>
-                <div className='img-back'>
-                    
-                </div>
-                <form onSubmit={submitForm}>
-                    <p>{banner}</p>
-                    <label htmlFor='name'>Nom</label>
-                    <input type='text'
-                    onChange={handleName}
-                    value={name}
-                    />
+              <form onSubmit={submitForm}>
+                  <p>{banner}</p>
+                  <label htmlFor='name'>Nom</label>
+                  <input type='text'
+                  onChange={handleName}
+                  value={name}
+                  />
 
-                    <label htmlFor='email'>Email</label>
-                    <input type='text'
-                    onChange={handleEmail}
-                    value={email}/>
+                  <label htmlFor='email'>Email</label>
+                  <input type='text'
+                  onChange={handleEmail}
+                  value={email}/>
 
-                    <label htmlFor='message'>Message</label>
-                    <textarea type='text'
-                    onChange={handleMessage}
-                    value={message}/>
+                  <label htmlFor='message'>Message</label>
+                  <textarea type='text'
+                  onChange={handleMessage}
+                  value={message}/>
 
-                    <div className='send-btn'>
-                        <button type='submit'>
-                            send<i className='fa fa-paper-plane'/>
-                        </button>
+                  <div className='send-btn'>
+                      <button type='submit'>
+                        send<i className='fa fa-paper-plane'/>
+                      </button>
                     </div>
-                </form>
+              </form>
             </div>
         </div>
     </div>
