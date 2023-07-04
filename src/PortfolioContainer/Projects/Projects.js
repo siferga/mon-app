@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCards.js";
 import ScreenHeading from '../../utilities/ScreenHeading/ScreenHeading';
 import  portfolio from "../../assets/Projects/projetPortfolio.png";
 import application from "../../assets/Projects/projetCampagnes.png";
-import blog from "../../assets/Projects/logoSF.png";
+import blog from "../../assets/Projects/siteMarseille.jpg";
 import ScrollService from "../../utilities/ScrollService";
 import Animations from '../../utilities/Animations';
 import './Projects.css';
@@ -50,7 +50,7 @@ export default function Projects(props) {
           <ProjectCard
             imgPath={blog}
             isBlog={false}
-            title="Blog de Voyages"
+            title="Site Marseille"
             description="Symfony"
             ghLink="https://github.com"
             demoLink="https://google.com/"              
