@@ -17,12 +17,9 @@
    
 }
 .project-card {
-    width: 30%;
-    display: flex;
     flex-direction: row;
     border-radius: 12px;
     box-shadow: 0 0px 20px -2px #00275A;
-
    
 }
 /*project's pictures */
@@ -76,7 +73,15 @@ margin-top: 10%;
     .project-card {
         width: 95%;
         margin-bottom: 5%;
-    
+    }
+    .card-body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn-primary{
+        margin: 1%;
     }
 }
 @media only screen and (max-width: 500px) {

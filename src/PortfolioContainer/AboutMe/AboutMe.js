@@ -16,10 +16,10 @@ export default function AboutMe(props) {
     const SCREEN_CONSTSANTS = {
         description: {
             paragraphe1: [
-                "Après une formation et un stage en entreprise, j’ai obtenu le titre professionnel de Développeur Web et Web Mobile, me donnant l’opportunité de continuer à aprendre dans un secteur qui m’a toujours attiré.",
+                "Après une formation et un stage en entreprise, j’ai obtenu le titre professionnel de Développeur Web et Web Mobile, me donnant l’opportunité de continuer à apprendre dans un secteur qui m’a toujours attiré.",
             ],
             paragraphe2: [
-                "Mon expérience professionnelle dans des différentes secteurs, pays et entreprises, m’a aidé à développer ma capacité d'adaptation, à la pratique de longues et à mieux connaitre le besoin client. En étant charge de la conception de voyages dans une agence en France, j'ai respecté les échéances établies avec les clients et les fournisseurs, ce qui m'a permis de développer mon sens de l’organisation et de la rigueur.",
+                "Mes différentes expériences professionnelles dans les secteurs du Tourisme et du Commerce, en Espagne, Angleterre et France, m’ont aidé à développer ma capacité d'adaptation, la pratique de langues et à mieux connaitre le besoin client. Parmis mes postes, chargée de la conception de voyages dans une agence en France, le respect des échéances était clef, avec les clients et les fournisseurs, ce qui m'a permis de développer mon sens de l’organisation et de la rigueur.",
             ],
            
             paragraphe3: [

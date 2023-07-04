@@ -43,7 +43,7 @@ export default function Profile() {
                     <div className="profile-options">
                         <button className="btn primary-btn"
                          onClick={() => ScrollService.scrollHandler.scrollToHireMe()}
-                        >Me contacter</button>
+                        >Contacter</button>
                         <a href="CV Silvia portfolio.pdf" download="CV Silvia Fernandez.pdf">
                             <button className="btn highlighted-btn">Mon CV</button>
                         </a>
