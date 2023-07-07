@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/mon-app/static/css/main.79e8af7c.css",
+    "main.js": "/mon-app/static/js/main.983d9cb6.js",
+    "static/js/787.6d185335.chunk.js": "/mon-app/static/js/787.6d185335.chunk.js",
+    "static/media/bg-blue.jpg": "/mon-app/static/media/bg-blue.5e9647402ef3433b0fc4.jpg",
+    "static/media/profilephoto.jpg": "/mon-app/static/media/profilephoto.c492a2c6a4f3108154ff.jpg",
+    "static/media/projetPortfolio.png": "/mon-app/static/media/projetPortfolio.314c4394d9b9e0499560.png",
+    "static/media/Poppins-Thin.ttf": "/mon-app/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
+    "static/media/Poppins-Light.ttf": "/mon-app/static/media/Poppins-Light.f41b63c0bb0963ace821.ttf",
+    "static/media/Poppins-Regular.ttf": "/mon-app/static/media/Poppins-Regular.8081832fc5cfbf634aa6.ttf",
+    "static/media/Poppins-Medium.ttf": "/mon-app/static/media/Poppins-Medium.9e1bb626874ed49aa343.ttf",
+    "static/media/Poppins-SemiBold.ttf": "/mon-app/static/media/Poppins-SemiBold.cce5625b56ec678e4202.ttf",
+    "static/media/Poppins-Bold.ttf": "/mon-app/static/media/Poppins-Bold.404e299be26d78e66794.ttf",
+    "static/media/Poppins-ExtraBold.ttf": "/mon-app/static/media/Poppins-ExtraBold.4ed78cd5d64af4efc3c7.ttf",
+    "static/media/siteMarseille.jpg": "/mon-app/static/media/siteMarseille.78d8b7a86efb0109fb35.jpg",
+    "static/media/projetCampagnes.png": "/mon-app/static/media/projetCampagnes.0c1a06865290bf2e8768.png",
+    "index.html": "/mon-app/index.html",
+    "main.79e8af7c.css.map": "/mon-app/static/css/main.79e8af7c.css.map",
+    "main.983d9cb6.js.map": "/mon-app/static/js/main.983d9cb6.js.map",
+    "787.6d185335.chunk.js.map": "/mon-app/static/js/787.6d185335.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79e8af7c.css",
+    "static/js/main.983d9cb6.js"
+  ]
+}
