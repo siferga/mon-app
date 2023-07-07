@@ -1,0 +1,24 @@
+{
+  "name": "portfoliopro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix mon-app",
+    "dev": "concurrently \"npm run  server\" \"npm run mon-app\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix mon-app && npm run build --prefix mon-app"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.3",
+    "nodemon": "^1.14.9",
+    "react-icons": "^4.10.1"
+  }
+}
