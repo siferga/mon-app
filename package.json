@@ -55,11 +55,13 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "babel-cli": "^6.26.0"
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
-  "author": "",
+  "author": "siferga <silvia.fernandez.pro@gmail.com>",
   "license": "ISC",
-  "keywords": []
+  "keywords": [],
+  "repository": "https://github.com/siferga/mon-app.git"
 }

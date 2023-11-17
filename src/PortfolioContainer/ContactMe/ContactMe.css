@@ -1,41 +1,41 @@
 .main-container {
-    /* background-image: url("../../assets/ContactMe/contact_us.jpeg"); */
-    margin: 100px 0 100px 0;
-    padding: 50px 0 50px 0;
-    background-color: #00275A;
+  background-image: url("../../assets/ContactMe/mailz.jpeg"); 
+  min-height: 100vh;
+  /*margin: 120px 0 100px 0;
+  padding: 50px 0px 80px 50px;
+  background-color: #00275A;*/
 }
 
 .central-form {
     display: flex;
     flex-direction: column;
-    /*margin: 0 auto;
+    /*margin: 0 auto;*/
     justify-content: center;
-    align-items: center;*/
+    /*align-items: center;*/
 }
  
 .central-form h2 {
-    color: #fff;
-    font-family: "Poppins Bold";
-    letter-spacing: 0.2rem;
-    display: flex;
-    justify-content: center;
-    padding-bottom: 4%;
+  color: #fff;
+  font-family: "Poppins Bold";
+  letter-spacing: 0.2rem;
+  display: flex;
+  justify-content: center;
     
   }
 
 /*Form*/
 .back-form {
-    width: 50%;
-    margin: 0 auto;
+  width: 50%;
+  margin: 0 auto;
     /*justify-content: center;*/
-    align-items: center;
+  align-items: center;
 }
 
 .central-form form {
-    width: auto;
-    box-shadow: 0 0 2px 1px white;
+  width: auto;
+  box-shadow: 0 0 2px 1px white;
     display: flex;
-    padding: 15px;
+  padding: 15px;
     justify-content: center;
     flex-direction: column;
     margin-top: -52px;
@@ -45,20 +45,19 @@
     border-radius: 12px;
 }
 form p {
-    text-align: center;
-    margin-bottom: 10px;
-    color: #00275A;
-    letter-spacing: 0.1rem;
-    font-family: "Poppins Bold";
-  }
+  letter-spacing: 0.1rem;
+  font-family: "Poppins Bold";
+}
+
 form label {
-    margin-bottom: 5px;
-    color: #00275A;
-    letter-spacing: 0.2rem;
-  }
+  margin-bottom: 5px;
+  color: #00275A;
+  letter-spacing: 0.2rem;
+}
+
 form input,
 textarea {
-    width: 100%;
+  width: 100%;
     border: 2px solid rgba(0, 0, 0, 0);
     outline: none;
     background-color: rgba(230, 230, 230, 0.6);
@@ -67,7 +66,7 @@ textarea {
     margin-bottom: 22px;
     transition: 0.3s;
     border-radius: 10px;
-  }
+}
 textarea:focus {
     border: 2px solid rgba(30, 85, 250, 0.47);
     background-color: #fff;
@@ -99,6 +98,11 @@ form button:hover {
 button .load {
     width: 100%;
 }
+button .load image {
+  width: 60px;
+  color: green;
+}
+
 .col i {
     padding: 7px;
     color: #fff;
