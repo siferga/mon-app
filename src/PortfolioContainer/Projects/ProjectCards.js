@@ -21,12 +21,10 @@ export default function ProjectCards(props) {
         {"\n"}
         {"\n"}
 
-
         {!props.isBlog && props.demoLink && (
           <Button
             href={props.demoLink}
             target="_blank"
-
           >
             <CgWebsite /> &nbsp;
             {"Demo"}

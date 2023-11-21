@@ -30,9 +30,9 @@ export default function AboutMe(props) {
 
         highlights: {
             bullets: [
-                    "Musique, je joue la clarinette",
-                    "Sport, je fais du tennis",
-                    "Permit de conduire, j'ai une voiture",
+                "Musique, je joue la clarinette",
+                "Sport, je fais du tennis",
+                "Permit de conduire, j'ai une voiture",
             ],
             heading: "",
         },
@@ -56,7 +56,6 @@ export default function AboutMe(props) {
                             <span> {SCREEN_CONSTSANTS.description.paragraphe3}</span>    
                         </div>
                     </div>
-                   
                 </div>
             </div>
         </div>

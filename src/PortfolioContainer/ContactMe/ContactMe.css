@@ -1,21 +1,22 @@
 .main-container {
-  background-image: url("../../assets/ContactMe/mailz.jpeg"); 
+  /*background-image: url("../../assets/ContactMe/mailz.jpeg");*/ 
   min-height: 100vh;
-  /*margin: 120px 0 100px 0;
+  margin: 120px 0 100px 0;
   padding: 50px 0px 80px 50px;
-  background-color: #00275A;*/
+  background-color: #00275A;
 }
 
 .central-form {
     display: flex;
     flex-direction: column;
-    /*margin: 0 auto;*/
+    margin: 0 auto;
     justify-content: center;
-    /*align-items: center;*/
+    align-items: center;
 }
  
 .central-form h2 {
   color: #fff;
+  /*color: #00275A;*/
   font-family: "Poppins Bold";
   letter-spacing: 0.2rem;
   display: flex;
@@ -25,24 +26,23 @@
 
 /*Form*/
 .back-form {
-  width: 50%;
-  margin: 0 auto;
-    /*justify-content: center;*/
+  width: 60%;
+  margin-top: 50px;
+  justify-content: center;
   align-items: center;
 }
 
 .central-form form {
-  width: auto;
+  /*width: auto;*/
   box-shadow: 0 0 2px 1px white;
-    display: flex;
-  padding: 15px;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: -52px;
-    opacity: 0.9;
-    background-color: white;
-    box-shadow: 0 0px 20px -2px #a8cbf8;
-    border-radius: 12px;
+  display: flex;
+  padding: 18px;
+  justify-content: center;
+  flex-direction: column;
+  opacity: 0.9;
+  background-color: white;
+  box-shadow: 0 0px 20px -2px #a8cbf8;
+  border-radius: 12px;
 }
 form p {
   letter-spacing: 0.1rem;
@@ -58,14 +58,14 @@ form label {
 form input,
 textarea {
   width: 100%;
-    border: 2px solid rgba(0, 0, 0, 0);
-    outline: none;
-    background-color: rgba(230, 230, 230, 0.6);
-    padding: 0.5rem 1rem;
-    font-size: 1.1rem;
-    margin-bottom: 22px;
-    transition: 0.3s;
-    border-radius: 10px;
+  border: 2px solid rgba(0, 0, 0, 0);
+  outline: none;
+  background-color: rgba(230, 230, 230, 0.6);
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  margin-bottom: 22px;
+  transition: 0.3s;
+  border-radius: 10px;
 }
 textarea:focus {
     border: 2px solid rgba(30, 85, 250, 0.47);
@@ -87,8 +87,7 @@ form button {
     background-color: #00275A;
     font-size: 18px;
     width: 160px;
-    align-items: center;
-    justify-content: center;
+  
 }
 form button:hover {
     background-color: #1f2235;
@@ -111,7 +110,7 @@ button .load image {
 .col i:hover {
     transform: scale(1.5);
 }
-
+/*
 @media screen and (max-width: 1500px) {
   .back-form {
       display: flex;
@@ -122,13 +121,14 @@ button .load image {
     letter-spacing: 0.2rem;
     margin-bottom: 8%;
   }
-  .back-form {
-    width: 90%;
-    /*margin: 0 auto;*/
-}
   form {
       flex: 0.9;
   }
+  .back-form {
+    width: 90%;
+    /*margin: 0 auto;*/
+  /*}
+  
 
 }
 
@@ -146,5 +146,5 @@ button .load image {
 
 }
   
-}
+}*/
   
