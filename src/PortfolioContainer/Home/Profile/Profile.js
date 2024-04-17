@@ -26,6 +26,8 @@ export default function Profile() {
                     <div className='profile-details-name'>
                         <span className='primary-text'>
                             {" "}
+                            <h1>Silvia Fernandez Garcia 
+                            </h1>
                             <span className='highlighted-text'></span>
                         </span>
                     </div>
@@ -33,9 +35,9 @@ export default function Profile() {
                     <div className='profile-details-role'>
                         <span className='primary-text'>
                             {" "}
-                            <h1>Développeuse Web Full Stack 
-                            </h1>
-                            <h1>💻 ⚛️ 📒</h1>
+                            <h2>Développeuse Web Full Stack 
+                            </h2>
+                            <h1>💻 ⚛️ </h1>
                             <span className="profile-role-tagline">
                             </span>
                         </span>

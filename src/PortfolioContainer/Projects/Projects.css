@@ -28,16 +28,14 @@
     /*box-shadow: 0 0px 20px -2px #00275A;*/
     /*color azul de fondo*/
     background-color: #00275A;
-   
+    
 }
+
 /*project's pictures */
 .card-img{
-    width: 500px; 
-    height: 400px;
+    object-fit: fill;
     /*padding: 1%;*/
     align-items: center;
-    
-    
 
 }
 /*project's descriptions card*/

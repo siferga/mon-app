@@ -15,6 +15,7 @@
 .profile-details-name{
     font-size: 35px;
     /*font-family: "Poppins SemiBold";*/
+    color: cornflowerblue;
 }
 
 .profile-details-role{
@@ -94,6 +95,7 @@
 }
 .colz .colz-icon i:hover {
     transform: scale(1.5);
+    color: cornflowerblue;
 }
 
 @media screen and (max-width: 1110px){

@@ -56,7 +56,44 @@ export default function Projects(props) {
             demoLink="https://google.com/"              
           />
         </div>
+
       </div>
+      <div className="project-card-container">
+        <div className="project-card">
+          <ProjectCard
+            imgPath={portfolio}
+            isBlog={false}
+            title="Portfolio"
+            description=" Html, Bootstrap et JS"
+            ghLink="https://majestic-sunshine-5523f2.netlify.app/"
+            demoLink="https://majestic-sunshine-5523f2.netlify.app/"
+            />
+        </div>
+          
+        <div className="project-card">
+          <ProjectCard
+            imgPath={application}
+            isBlog={false}
+            title="Application de gestion"
+            description=" Symfony 5 et Bootstrap 5"
+            ghLink="https://github.com/siferga/Campagnes_Webmarketing"
+            demoLink="https://google.com/"
+          />
+        </div>
+      
+        <div className="project-card">
+          <ProjectCard
+            imgPath={blog}
+            isBlog={false}
+            title="Site Marseille"
+            description="Symfony"
+            ghLink="https://github.com"
+            demoLink="https://google.com/"              
+          />
+        </div>
+
+      </div>
+      
     </div>
   );
 }
